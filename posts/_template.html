@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--
+  ============================================================
+  回忆文章模板 · 使用方法
+  ------------------------------------------------------------
+  1. 把本文件复制一份，改名为如 posts/2015-anomaly.html
+  2. 修改 <title>、下面的标题/日期/标签和正文
+  3. 在 assets/memories-data.js 里对应条目的 link 字段
+     填上 "posts/2015-anomaly.html"，卡片即可点击跳转
+  ============================================================
+-->
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>文章标题 | SZRES 深圳蓝军</title>
+<link rel="icon" type="image/png" href="../assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <a class="brand" href="../index.html">
+    <img src="../assets/favicon.png" alt="SZRES">
+    <span>
+      <span class="b-name">SZRES</span>
+      <span class="b-sub">SHENZHEN RESISTANCE</span>
+    </span>
+  </a>
+  <button class="nav-burger" id="burger" aria-label="菜单">
+    <span></span><span></span><span></span>
+  </button>
+  <nav class="nav-links" id="navLinks">
+    <a href="../index.html#about">ABOUT US</a>
+    <a href="../memories.html" class="active">MEMORIES</a>
+    <a href="https://t.me/szres" target="_blank" rel="noopener" class="nav-cta">JOIN US</a>
+  </nav>
+</header>
+
+<article class="article">
+  <header class="article-head">
+    <div class="overline">MEMORIES // 回忆档案</div>
+    <h1>这里是文章标题</h1>
+    <div class="article-meta">
+      <span>2015-06-13 · 2015 年</span>
+      <span class="mem-tags"><span>异常战</span><span>示例标签</span></span>
+    </div>
+  </header>
+
+  <div class="article-body">
+    <p>在这里写正文。可以写当时的背景、参战人员、行动过程和结果，配上当年的截图与照片。</p>
+    <h2>小节标题</h2>
+    <p>多写一点，回忆才够味。</p>
+    <blockquote>引用一段当年的群聊或战报。</blockquote>
+    <p>正文示例段落。图片直接用 &lt;img src="..."&gt; 插入，样式已配好。</p>
+  </div>
+
+  <a class="back-link" href="../memories.html">← BACK TO MEMORIES · 返回档案</a>
+</article>
+
+<footer>
+  <img src="../assets/favicon.png" alt="">
+  <div class="f-name">SHENZHEN RESISTANCE · 深圳蓝军</div>
+  <div class="f-est">EST. 2013 — STILL RUNNING</div>
+  <p class="f-note">© 2013–2026 SZRES · SHENZHEN RESISTANCE</p>
+</footer>
+
+<script src="../assets/main.js"></script>
+</body>
+</html>
