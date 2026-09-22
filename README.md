@@ -1,6 +1,6 @@
-# SZRES · Shenzhen Resistance 深圳蓝军 — 社群主页
+# SZRES · Shenzhen Resistance 深蓝社群 — 社群主页
 
-深圳 Resistance（深圳蓝军）的官方介绍主页，成立于 2013 年，持续运营至今。
+深圳 Resistance（深蓝社群）的官方介绍主页，成立于 2013 年，持续运营至今。
 纯静态站点，无需任何构建工具。
 
 ## 页面结构
