@@ -1,0 +1,3 @@
+# ignore local dev logs and helper artifacts
+*-log.txt
+.git-msg.txt
