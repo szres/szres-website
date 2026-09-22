@@ -6,15 +6,16 @@
 ## 页面结构
 
 ```
-index.html            首页（LOGO / 情报风格深圳地图 / 关于我们 / 加入我们 / 回忆精选）
+index.html            首页（ingress.com 式大字标语 + 全屏情报风深圳地图背景）
 memories.html         回忆档案（2013–2026 按年份归档）
 posts/                文章页目录（_template.html 为模板，写新文章复制它）
 assets/
   style.css           全站样式（Ingress 风格黑底蓝光主题）
   main.js             导航 / 滚动动效 / 档案渲染
   memories-data.js    ★ 回忆档案数据 —— 日常维护基本只改这个文件
-  logo.png            社群旗帜 LOGO（1400px 宽）
-  favicon.png         方形徽标
+  logo-mark.png       透明底白色大鹏鸟徽章（导航 / 页脚 / 关于我们）
+  logo.png            社群旗帜原图（1400px 宽，蓝底完整版）
+  favicon.png         方形徽标（浏览器标签页用，蓝底）
   shenzhen-map.svg    Ingress 情报风格深圳地图（真实市界/区界矢量数据生成）
 ```
 
