@@ -31,6 +31,15 @@ window.SZRES_MEMORIES = [
     link: ""
   },
   {
+    year: 2014,
+    date: "2014-08-09",
+    title: "Helios（太阳神）香港卫星场大战",
+    tags: ["Anomaly", "大战", "香港"],
+    excerpt: "大战在香港九龙黄大仙摩士公园举办，深蓝社群的早期成员前往参加。得分情况为 Resistance 94 : Enlightened 31。",
+    link: "",
+    button: { label: "活动介绍", url: "https://www.reddit.com/r/Ingress/comments/2d38oa/postanomaly_photo_and_screenshot_comparison/" }
+  },
+  {
     year: 2015,
     date: "2015-03-28",
     title: "Shōnin（证人）广州卫星场大战",
