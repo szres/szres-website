@@ -57,6 +57,14 @@ window.SZRES_MEMORIES = [
   },
   {
     year: 2016,
+    date: "2016-02",
+    title: "社群 LOGO 更新：方形图标 → 猛禽图标",
+    tags: ["品牌", "里程碑"],
+    excerpt: "深蓝社群更新视觉标识，LOGO 由方形图标变为猛禽图标。",
+    link: ""
+  },
+  {
+    year: 2016,
     date: "2016-04",
     title: "深蓝纪念任务组图上线",
     tags: ["Mission", "任务", "园博园"],
