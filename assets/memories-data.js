@@ -57,6 +57,15 @@ window.SZRES_MEMORIES = [
   },
   {
     year: 2016,
+    date: "2016-04",
+    title: "深蓝纪念任务组图上线",
+    tags: ["Mission", "任务", "园博园"],
+    excerpt: "「深圳抵抗军终极使命」与「深圳上空的鹰」两组纪念任务上线，位于深圳园博园——以超高密度的能量塔群而著名，吸引了粤港玩家前来组团打卡，曾经是蓝军周末八场的核心据点。",
+    link: "",
+    button: { label: "活动介绍", url: "https://ingress.fandom.com/zh/wiki/Mission:%E6%B7%B1%E5%9C%B3%E4%B8%8A%E7%A9%BA%E7%9A%84%E9%B9%B0?variant=zh-hk" }
+  },
+  {
+    year: 2016,
     date: "2016-09-24",
     title: "Via Lux（光之宿命）澳门卫星场大战",
     tags: ["Anomaly", "大战", "澳门"],
