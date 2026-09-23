@@ -45,6 +45,14 @@ window.SZRES_MEMORIES = [
     link: ""
   },
   {
+    year: 2018,
+    date: "2018-10",
+    title: "Ingress Prime 内测体验",
+    tags: ["Prime", "扫描器", "里程碑"],
+    excerpt: "Agent 们率先拿到新一代扫描器 Ingress Prime 的内测资格，告别旧版 Scanner，开启全新界面时代。",
+    link: ""
+  },
+  {
     year: 2019,
     date: "2019",
     title: "社群迁移至新群",
