@@ -123,6 +123,14 @@ window.SZRES_MEMORIES = [
     link: ""
   },
   {
+    year: 2024,
+    date: "2024-01-06",
+    title: "重启 Ingress First Saturday 线下聚会",
+    tags: ["IFS", "线下", "里程碑"],
+    excerpt: "深圳 Ingress First Saturday 线下聚会由蓝军组织者 SSSunlight 重启；此后 Tinki666 与 ChestnutLUO 接任组织者，持续参与举办线下 IFS。",
+    link: ""
+  },
+  {
     year: 2026,
     date: "2026-09",
     title: "SZRES 社群主页上线",
