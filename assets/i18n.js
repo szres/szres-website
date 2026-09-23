@@ -23,20 +23,20 @@
     about_overline: ["ABOUT US // 关于我们", "ABOUT US // SZRES"],
     about_zh: ["我们是谁", "SZRES COMMUNITY"],
     about_p1: [
-      "深蓝社群（Shenzhen Resistance，SZRES）是 Ingress 玩家在深圳的抵抗军社群，自 <em>2013 年</em>成立至今，已陪伴这座城市走过了<em>十余个年头</em>。",
-      "Shenzhen Resistance (SZRES) is the Resistance community for Ingress agents in Shenzhen. Founded in <em>2013</em>, it has stood alongside this city for <em>over a decade</em>."
+      "深蓝社群（Shenzhen Resistance，SZRES）是 Ingress 玩家在深圳的抵抗军社群，自 <em>2013 年</em>成立至今。",
+      "Shenzhen Resistance (SZRES) is the Resistance community for Ingress agents in Shenzhen, running since <em>2013</em>."
     ],
     about_p2: [
-      "Ingress 是一款以真实世界为棋盘的增强现实（AR）游戏，全球玩家分为两支阵营——争夺守护人类心灵的 <em>Resistance（抵抗军）</em>与拥抱异次元能量的 Enlightened（启示军）。在深圳，我们就是那支把地图刷成蓝色的队伍。",
-      "Ingress is an augmented-reality game played on the streets of the real world. Agents worldwide join one of two factions — the <em>Resistance</em>, fighting to protect humanity, and the Enlightened, embracing exotic energy. In Shenzhen, we are the team that paints the map blue."
+      "Ingress 是一款以真实世界为棋盘的增强现实（AR）游戏，全球玩家分为两支阵营——争夺守护人类心灵的 <em>Resistance（抵抗军）</em>与拥抱异次元能量的 Enlightened（启示军）。在深圳，我们就是那支拿着蓝色手持终端，把地图覆盖成蓝色的队伍。",
+      "Ingress is an augmented-reality game played on the streets of the real world. Agents worldwide join one of two factions — the <em>Resistance</em>, fighting to protect humanity, and the Enlightened, embracing exotic energy. In Shenzhen, we are the team with blue scanner devices in hand, covering the map in blue."
     ],
     about_p3: [
-      "从南山科技园到罗湖东门，从蛇口的海风到大鹏的浪涛，深圳 Agent 们的扫描器从未停下：日常的占领与建联、周末的 field ops、官方异常战（Anomaly）与 First Saturday 月光行动、以及大大小小的线下聚会。阵营会有胜负，战场会有得失，但这份从 2013 年延续下来的默契与热闹，从未散场。",
-      "From the Nanshan tech hub to Dongmen in Luohu, from the sea breeze of Shekou to the waves of Dapeng, Shenzhen agents never stop scanning: daily captures and fields, weekend ops, official anomalies and First Saturday meetups, gatherings big and small. Factions win and lose, fields rise and fall — but the spirit that has run since 2013 never faded."
+      "从蛇口海上世界的巨轮到世界工厂的龙华富士康，从南山科兴科技园到人来人往的罗湖口岸，从深圳湾公园的海风到大鹏的浪涛，深圳 Agent 们的扫描器从未停下：日常的占领与社群联系从未中断，周末的 field ops、官方异常战（Anomaly）与 First Saturday 首月周六、以及大大小小的线下聚会总在发生。阵营会有胜负，战场会有得失，人员会有流动。天下没有不散的筵席，但这份从 2013 年延续下来的羁绊，至今还未中断。",
+      "From the giant ship at Sea World in Shekou to Foxconn Longhua in the world's factory, from Kexing Science Park in Nanshan to the bustling Luohu border checkpoint, from the sea breeze of Shenzhen Bay Park to the waves of Dapeng — Shenzhen agents never stop scanning. Daily captures and community ties have never been broken, while weekend field ops, official anomalies, First Saturday meetups and offline gatherings big and small are always happening. Factions win and lose, battlefields shift, people come and go. No feast lasts forever, yet the bond forged in 2013 has never been interrupted."
     ],
     about_p4: [
-      "无论你是身经百战的老 Agent，还是刚刚下载扫描器的新人，蓝军的门永远为你打开。",
-      "Whether you are a battle-hardened veteran or a new agent with a fresh scanner, the door of the Resistance is always open for you."
+      "无论你是身经百战的老 Agent，还是刚刚下载扫描器的新人，深蓝社群都欢迎你的加入。",
+      "Whether you are a battle-hardened veteran or a newcomer who has just downloaded the scanner, SZRES welcomes you."
     ],
     fact_founded_v: ["2013 年", "2013"],
     fact_faction_v: ["RESISTANCE · 抵抗军", "RESISTANCE"],
