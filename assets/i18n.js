@@ -66,7 +66,13 @@
       "Ingress™ 为 Niantic Spatial, Inc. 的注册商标。本站为玩家自发建立的非官方社群主页，与 Niantic Spatial, Inc. 无从属关系。© 2013–2026 SZRES · SHENZHEN RESISTANCE",
       "Ingress™ is a trademark of Niantic Spatial, Inc. This is an unofficial community website built by agents, and is not affiliated with Niantic Spatial, Inc. © 2013–2026 SZRES · SHENZHEN RESISTANCE"
     ],
-    fl_label: ["友情链接", "FRIEND LINKS"]
+    fl_label: ["友情链接", "FRIEND LINKS"],
+    song_overline: ["THEME SONG // 主题曲", "THEME SONG // ANIME OPENING"],
+    song_zh: ["动画主题曲", "INGRESS THE ANIMATION"],
+    song_desc: [
+      "《Tessellate》 by alt-J，收录于专辑《An Awesome Wave》（2012），也是动画《INGRESS THE ANIMATION》的片头曲。戴上耳机，听听深蓝的背景音。",
+      "'Tessellate' by alt-J, from the album 'An Awesome Wave' (2012) — also the opening theme of the anime 'INGRESS THE ANIMATION'. Put on your headphones and enjoy the sound of SZ."
+    ]
   };
 
   var TAGS = {

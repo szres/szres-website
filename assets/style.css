@@ -638,6 +638,30 @@ footer .f-note { font-size: 11.5px; color: var(--faint); max-width: 720px; margi
 .friend-links a:hover { background: var(--accent-dim); color: #cfe7ff; }
 .friend-links a:hover::before { color: var(--accent); }
 
+/* theme song */
+.song-grid {
+  display: grid;
+  grid-template-columns: 1.25fr 1fr;
+  gap: 22px;
+  margin-top: 44px;
+}
+.song-video {
+  position: relative;
+  padding-top: 56.25%;
+  border: 1px solid var(--line);
+  background: var(--panel);
+}
+.song-video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.song-card {
+  border: 1px solid var(--line);
+  background: var(--panel);
+  padding: 26px;
+  display: flex;
+  flex-direction: column;
+}
+.song-card .fact:first-child { border-top: none; padding-top: 2px; }
+.song-links { margin-top: auto; padding-top: 20px; display: flex; flex-wrap: wrap; gap: 8px; }
+
 /* reveal on scroll */
 .reveal { opacity: 0; transform: translateY(26px); transition: opacity 0.7s ease, transform 0.7s ease; }
 .reveal.in { opacity: 1; transform: translateY(0); }
@@ -646,6 +670,7 @@ footer .f-note { font-size: 11.5px; color: var(--faint); max-width: 720px; margi
 @media (max-width: 860px) {
   .about-grid { grid-template-columns: 1fr; gap: 34px; }
   .mem-grid { grid-template-columns: 1fr; }
+  .song-grid { grid-template-columns: 1fr; }
   .year-block { grid-template-columns: 1fr; gap: 18px; }
   .year-num { position: static; font-size: 36px; }
   .strip-item { padding: 0 18px; font-size: 13px; }
