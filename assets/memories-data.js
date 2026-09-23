@@ -123,11 +123,11 @@ window.SZRES_MEMORIES = [
   {
     year: 2018,
     date: "2018-10",
-    title: "Ingress Prime 内测体验",
-    title_en: "Ingress Prime beta hands-on",
-    tags: ["Prime", "扫描器", "里程碑"],
-    excerpt: "Agent 们率先拿到新一代扫描器 Ingress Prime 的内测资格，告别旧版 Scanner，开启全新界面时代。",
-    excerpt_en: "Agents got early access to the next-generation scanner, Ingress Prime — farewell to the old scanner, hello to a whole new interface era.",
+    title: "Ingress Prime 体验",
+    title_en: "Ingress Prime hands-on",
+    tags: ["Prime", "扫描器"],
+    excerpt: "Agent 率先体验新一代扫描器 Ingress Prime 的内测，告别旧版 Scanner，开启全新界面时代。但新版客户端功能残缺，操作习惯完全不同，且起步期无法申请新的 Portal，以上因素造成了老玩家的严重流失。",
+    excerpt_en: "Agents got early beta access to the next-generation scanner, Ingress Prime — farewell to the old Scanner, hello to a new interface era. But the new client was feature-incomplete, played completely differently, and in its early days didn't even accept new Portal requests. Together these drove a serious exodus of veteran agents.",
     link: ""
   },
   {
