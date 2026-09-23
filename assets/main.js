@@ -16,6 +16,11 @@
     if (nav) nav.classList.toggle('scrolled', window.scrollY > 30);
   });
 
+  /* ---- language (set by i18n.js, toggled in top-right corner) ---- */
+  var I18N = window.SZRES_I18N || {};
+  var LANG = I18N.lang || 'zh';
+  function pick(zhVal, enVal) { return (LANG === 'en' && enVal) ? enVal : zhVal; }
+
   /* ---- memories data ---- */
   var DATA = (window.SZRES_MEMORIES || []).slice().sort(function (a, b) {
     return (a.year - b.year) || String(a.date || '').localeCompare(String(b.date || ''));
@@ -28,19 +33,23 @@
   }
 
   function cardHTML(m) {
-    var tags = (m.tags || []).map(function (t) { return '<span>' + esc(t) + '</span>'; }).join('');
+    var tags = (m.tags || []).map(function (t) {
+      var label = LANG === 'en' ? ((I18N.TAGS && I18N.TAGS[t]) || t) : t;
+      return '<span>' + esc(label) + '</span>';
+    }).join('');
     var btn = '';
     if (m.button && m.button.url) {
-      var label = esc(m.button.label || '阅读更多');
+      var rawLabel = m.button.label_en || m.button.label || 'Read more';
+      var label = LANG === 'en' ? ((I18N.BTN && I18N.BTN[rawLabel]) || rawLabel) : rawLabel;
       btn = m.link
-        ? '<span class="mem-btn">' + label + '</span>'
-        : '<a class="mem-btn" href="' + esc(m.button.url) + '" target="_blank" rel="noopener">' + label + '</a>';
+        ? '<span class="mem-btn">' + esc(label) + '</span>'
+        : '<a class="mem-btn" href="' + esc(m.button.url) + '" target="_blank" rel="noopener">' + esc(label) + '</a>';
     }
     var inner =
       '<div class="mem-year">' + m.year +
       '<span class="mem-date">' + esc(m.date || '') + '</span></div>' +
-      '<h3>' + esc(m.title) + '</h3>' +
-      '<p>' + esc(m.excerpt || '') + '</p>' +
+      '<h3>' + esc(pick(m.title, m.title_en)) + '</h3>' +
+      '<p>' + esc(pick(m.excerpt, m.excerpt_en)) + '</p>' +
       (tags ? '<div class="mem-tags">' + tags + '</div>' : '') +
       (btn ? '<div class="mem-btnrow">' + btn + '</div>' : '');
     var cls = 'mem-card reveal';
@@ -68,7 +77,7 @@
     DATA.forEach(function (m) { (byYear[m.year] = byYear[m.year] || []).push(m); });
     var html = '';
     for (var y = 2013; y <= 2026; y++) {
-      var cards = (byYear[y] || []).map(cardHTML).join('') || emptyHTML(y + ' 档案整理中');
+      var cards = (byYear[y] || []).map(cardHTML).join('') || emptyHTML(pick(y + ' 档案整理中', String(y)));
       html += '<section class="year-block"><div class="year-num">' + y +
         '<small>YEAR ' + String(y).slice(2) + '</small></div>' +
         '<div class="year-cards">' + cards + '</div></section>';

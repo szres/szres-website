@@ -122,6 +122,22 @@ img { max-width: 100%; display: block; }
 }
 .nav-links a.nav-cta:hover { background: var(--accent-dim); color: #fff; }
 
+.nav-right { display: flex; align-items: center; gap: 20px; }
+.lang-toggle {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 13.5px;
+  letter-spacing: 1.5px;
+  color: var(--accent);
+  background: transparent;
+  border: 1px solid var(--line-strong);
+  padding: 5px 12px;
+  cursor: pointer;
+  clip-path: polygon(8px 0, 100% 0, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0 100%, 0 8px);
+  transition: background 0.2s, color 0.2s;
+}
+.lang-toggle:hover { background: var(--accent-dim); color: #fff; }
+
 .nav-burger {
   display: none;
   flex-direction: column;
@@ -601,6 +617,7 @@ footer .f-note { font-size: 12.5px; color: var(--faint); max-width: 560px; margi
 @media (max-width: 760px) {
   .nav { padding: 0 18px; }
   .brand .b-sub { display: none; }
+  .nav-right { gap: 14px; }
   .nav-burger { display: flex; }
   .nav-links {
     position: fixed;

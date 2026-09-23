@@ -11,7 +11,8 @@ memories.html         回忆档案（2013–2026 按年份归档）
 posts/                文章页目录（_template.html 为模板，写新文章复制它）
 assets/
   style.css           全站样式（Ingress 风格黑底蓝光主题）
-  main.js             导航 / 滚动动效 / 档案渲染
+  i18n.js             ★ 中英双语词典与切换逻辑（右上角 EN/中文 按钮）
+  main.js             导航 / 滚动动效 / 档案渲染（按当前语言渲染）
   memories-data.js    ★ 回忆档案数据 —— 日常维护基本只改这个文件
   logo-mark.png       透明底白色大鹏鸟徽章（导航 / 页脚 / 关于我们）
   logo.png            社群旗帜原图（1400px 宽，蓝底完整版）
@@ -43,6 +44,16 @@ assets/
 
 3. 想写长文：复制 `posts/_template.html` 改名（如 `posts/2015-anomaly.html`），
    填好标题与正文后，把上面 `link` 字段指向它。
+
+## 双语（中/英）维护
+
+右上角按钮切换中英文，选择保存在浏览器 localStorage 里。
+
+- 页面固定文案：改 `assets/i18n.js` 里的 `DICT`（每个 key 对应 `[中文, English]`）
+- 标签 / 按钮文案译名：`i18n.js` 里的 `TAGS` / `BTN` 映射表
+- 档案条目：`memories-data.js` 里每条可选加 `title_en` / `excerpt_en`，
+  不加则英文版回退显示中文
+- 新增英文标签时记得在 `TAGS` 里补一行译名，否则英文版会显示中文标签
 
 ## 部署
 
