@@ -608,6 +608,7 @@ footer .f-note { font-size: 12.5px; color: var(--faint); max-width: 560px; margi
   justify-content: center;
   flex-wrap: wrap;
   gap: 10px;
+  counter-reset: fl;
 }
 .friend-links .fl-label {
   font-family: var(--font-display);
@@ -617,15 +618,25 @@ footer .f-note { font-size: 12.5px; color: var(--faint); max-width: 560px; margi
   margin-right: 4px;
 }
 .friend-links a {
-  font-size: 13px;
+  counter-increment: fl;
+  font-size: 12px;
   letter-spacing: 1px;
-  color: var(--accent-2);
-  border: 1px solid rgba(0, 150, 230, 0.3);
-  padding: 4px 14px;
+  color: rgba(127, 146, 166, 0.75);
+  border: 1px solid rgba(0, 150, 230, 0.2);
+  padding: 3px 12px;
   clip-path: polygon(8px 0, 100% 0, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0 100%, 0 8px);
   transition: background 0.2s, color 0.2s;
 }
-.friend-links a:hover { background: var(--accent-dim); color: #fff; }
+.friend-links a::before {
+  content: counter(fl, decimal-leading-zero);
+  font-family: var(--font-display);
+  font-size: 10.5px;
+  letter-spacing: 1px;
+  color: rgba(90, 120, 150, 0.6);
+  margin-right: 7px;
+}
+.friend-links a:hover { background: var(--accent-dim); color: #cfe7ff; }
+.friend-links a:hover::before { color: var(--accent); }
 
 /* reveal on scroll */
 .reveal { opacity: 0; transform: translateY(26px); transition: opacity 0.7s ease, transform 0.7s ease; }
