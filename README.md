@@ -46,7 +46,8 @@ assets/
 
 ## 部署
 
-仓库：https://github.com/szres/szres-website
+站点：https://szres.github.io/
+仓库：https://github.com/szres/szres.github.io
 GitHub Pages 从 `main` 分支根目录发布，推送后 1-2 分钟内自动更新。
 
 ```bash

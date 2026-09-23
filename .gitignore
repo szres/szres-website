@@ -1,3 +1,6 @@
 # ignore local dev logs and helper artifacts
 *-log.txt
 .git-msg.txt
+rename-repo.ps1
+git-deploy.ps1
+git-push.ps1
