@@ -90,6 +90,15 @@ window.SZRES_MEMORIES = [
     button: { label: "活动介绍", url: "https://ingress.fandom.com/zh/wiki/Mission:Mission_Day_Shenzhen" }
   },
   {
+    year: 2017,
+    date: "2017-08-26",
+    title: "13MAGNUS Reawakens（13马格努斯觉醒）澳门卫星场大战",
+    tags: ["Anomaly", "大战", "澳门"],
+    excerpt: "澳门第二次被选为 Satellite 城市，深蓝社群组团参加。活动以澳门科学馆为主会场，在台风天鸽过境后满目疮痍的澳门半岛展开激战。",
+    link: "",
+    button: { label: "活动详情", url: "https://www.hk01.com/%E9%81%8A%E6%88%B2%E5%8B%95%E6%BC%AB/115526/%E9%A2%B1%E9%A2%A8%E4%B8%AD%E7%9A%84ar%E5%B0%8D%E6%B1%BA" }
+  },
+  {
     year: 2018,
     date: "2018-10",
     title: "Ingress Prime 内测体验",
