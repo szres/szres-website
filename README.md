@@ -68,11 +68,16 @@ git add -A && git commit -m "update" && git push
 ## 地图数据说明
 
 `shenzhen-map.svg` 由深圳市边界 GeoJSON（阿里 DataV `440300_full.json` / `440300.json`）
-经 `assets/convert-geo.ps1` 投影转换生成，装饰层（portal / link / field / 标签）在
-`assets/svg-deco.txt` 中维护，改动后重新用以下命令拼装：
+经 `assets/convert-geo.ps1` 投影转换生成。装饰层（连线/能量场）由 `assets/gen-links.ps1`
+生成：连线按「最短边优先 + 拒绝交叉」的贪心平面图算法构建，保证任意两条连线不交叉
+（符合游戏内链接规则）；能量场取主 portal 间的大三角形，场边同时也是连线。
+静态层（portal 圆点/区名/罗盘）在 `assets/svg-static.txt` 中维护。
+
+改动后重新拼装：
 
 ```bash
 cd assets
+powershell -NoProfile -ExecutionPolicy Bypass -File gen-links.ps1
 { cat svg-head.txt
   echo -n '<path class="land" d="'; awk -F'|' '{printf "%s", $2}' districts-path.txt; echo '"/>'
   echo -n '<path class="dline" d="'; awk -F'|' '{printf "%s", $2}' districts-path.txt; echo '"/>'
