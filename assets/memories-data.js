@@ -64,6 +64,14 @@ window.SZRES_MEMORIES = [
     link: ""
   },
   {
+    year: 2018,
+    date: "2018-11-17",
+    title: "Recursion Prime（递归之始）香港卫星场大战",
+    tags: ["Anomaly", "大战", "香港"],
+    excerpt: "深蓝社群组团赴港参战 Recursion Prime（递归之始）香港卫星场，在中环海滨和油尖旺区展开争夺。蓝军获胜。",
+    link: ""
+  },
+  {
     year: 2019,
     date: "2019",
     title: "社群迁移至新群",
