@@ -181,6 +181,14 @@ window.SZRES_MEMORIES = [
   },
   {
     year: 2026,
+    date: "2026-03-14",
+    title: "+Gamma 赛季香港沙田 XM 异常战",
+    tags: ["Anomaly", "大战", "香港"],
+    excerpt: "+Gamma 赛季 XM 异常战在香港新界沙田打响。深蓝队伍驻守圆洲角公园及战区东南角，后半程战况艰难陷入苦战，最终以 156 : 144 惜败。",
+    link: ""
+  },
+  {
+    year: 2026,
     date: "2026-09",
     title: "SZRES 社群主页上线",
     tags: ["网站", "里程碑"],
