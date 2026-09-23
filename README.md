@@ -90,3 +90,18 @@ powershell -NoProfile -ExecutionPolicy Bypass -File gen-links.ps1
 ---
 
 Ingress™ 为 Niantic, Inc. 的注册商标，本站为玩家自发建立的非官方社群主页。
+
+## SEO 说明
+
+已完成：标题/描述/关键词覆盖「深圳蓝军 / 深蓝社群 / 深蓝SZRES / SZRES」，
+JSON-LD Organization 结构化数据（alternateName 含各别称）、canonical、
+Open Graph、sitemap.xml、robots.txt。
+
+写新文章时记得改 `<title>`、meta description 和 canonical 里的占位文件名。
+
+**上线后建议手动做一次（需要站长账号，无法代劳）：**
+
+1. Google Search Console（search.google.com/search-console）添加资源
+   `https://szres.github.io/`，验证后提交 sitemap.xml，并使用「网址检查 → 请求编入索引」
+2. Bing Webmaster Tools（可直接从 Search Console 导入）
+3. 百度搜索资源平台（ziyuan.baidu.com）提交网址（百度收录较慢，属正常）
