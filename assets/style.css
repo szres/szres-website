@@ -635,6 +635,17 @@ footer .f-note { font-size: 11.5px; color: var(--faint); max-width: 720px; margi
   color: rgba(90, 120, 150, 0.6);
   margin-right: 7px;
 }
+.friend-links a.fl-gh {
+  counter-increment: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 8px;
+}
+.friend-links a.fl-gh::before { content: none; }
+.friend-links a.fl-gh svg { width: 15px; height: 15px; fill: currentColor; }
+.friend-links a.fl-gh:hover { color: #cfe7ff; }
+.friend-links a.fl-gh:hover::before { content: none; }
 .friend-links a:hover { background: var(--accent-dim); color: #cfe7ff; }
 .friend-links a:hover::before { color: var(--accent); }
 
