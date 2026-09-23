@@ -143,7 +143,7 @@ window.SZRES_MEMORIES = [
     date: "2023-06-02",
     title: "超频 Overclock 功能上线",
     tags: ["Overclock", "AR", "里程碑"],
-    excerpt: "「AR mapped portals to hack items fast」，深蓝社群曾建立中国大陆最密集的超频能量塔农场，生成了近百个高质量 AR 超频能量塔，直至该功能于 2026 年初关闭。主要范围为北环香蜜立交一带、梧桐山大望文化高地、塘朗山公园龙珠门、金地威新科技园、深圳图书馆北馆、地铁深圳湾公园站北侧等。",
+    excerpt: "「AR mapped portals to hack items fast」，深蓝社群曾建立中国大陆最密集的超频能量塔农场，生成了近百个高质量 AR 超频能量塔，直至该功能于 2026 年初关闭。主要范围为北环香蜜立交西南角、梧桐山大望文化高地、塘朗山公园龙珠门、金地威新科技园、深圳图书馆北馆、地铁深圳湾公园站北侧等。",
     link: "",
     button: { label: "活动介绍", url: "https://ingress.com/news/2023-overclock" }
   },
