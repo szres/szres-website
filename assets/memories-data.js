@@ -155,6 +155,14 @@ window.SZRES_MEMORIES = [
     link: ""
   },
   {
+    year: 2025,
+    date: "2025-05-24",
+    title: "+Theta 香港屯门碎片战（Shard Singular / Skirmish）",
+    tags: ["Anomaly", "碎片战", "香港"],
+    excerpt: "+Theta 赛季亚太地区碎片战在香港屯门打响，深蓝队伍出征屯门码头参战，最终 0 : 3 不敌绿军。",
+    link: ""
+  },
+  {
     year: 2026,
     date: "2026-09",
     title: "SZRES 社群主页上线",
