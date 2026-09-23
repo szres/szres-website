@@ -29,12 +29,20 @@
 
   function cardHTML(m) {
     var tags = (m.tags || []).map(function (t) { return '<span>' + esc(t) + '</span>'; }).join('');
+    var btn = '';
+    if (m.button && m.button.url) {
+      var label = esc(m.button.label || '阅读更多');
+      btn = m.link
+        ? '<span class="mem-btn">' + label + '</span>'
+        : '<a class="mem-btn" href="' + esc(m.button.url) + '" target="_blank" rel="noopener">' + label + '</a>';
+    }
     var inner =
       '<div class="mem-year">' + m.year +
       '<span class="mem-date">' + esc(m.date || '') + '</span></div>' +
       '<h3>' + esc(m.title) + '</h3>' +
       '<p>' + esc(m.excerpt || '') + '</p>' +
-      (tags ? '<div class="mem-tags">' + tags + '</div>' : '');
+      (tags ? '<div class="mem-tags">' + tags + '</div>' : '') +
+      (btn ? '<div class="mem-btnrow">' + btn + '</div>' : '');
     var cls = 'mem-card reveal';
     return m.link
       ? '<a class="' + cls + '" href="' + esc(m.link) + '">' + inner + '</a>'

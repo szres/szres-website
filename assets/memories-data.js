@@ -10,6 +10,8 @@
      excerpt 一两句话的简介
      link    可选。写了就整张卡片可点击跳转，
              例如 "posts/2015-anomaly.html"（页面放 posts/ 目录下）
+     button  可选。卡片底部的跳转按钮：
+             button: { label: "活动介绍", url: "https://..." }
    ============================================================ */
 window.SZRES_MEMORIES = [
   {
@@ -42,7 +44,8 @@ window.SZRES_MEMORIES = [
     title: "MDSZ · Mission Day Shenzhen",
     tags: ["Mission Day", "活动", "里程碑"],
     excerpt: "MDSZ 是 Niantic 与中国最大的游戏媒体 17173 合作举办的 Mission Day 系列活动之一，也是深圳首次举办 Mission Day。深蓝社群为活动提供了重要的支持协助。",
-    link: ""
+    link: "",
+    button: { label: "活动介绍", url: "https://ingress.fandom.com/zh/wiki/Mission:Mission_Day_Shenzhen" }
   },
   {
     year: 2018,
