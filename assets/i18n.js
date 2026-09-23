@@ -63,8 +63,8 @@
     ],
     footer_name: ["SHENZHEN RESISTANCE · 深蓝社群", "SHENZHEN RESISTANCE"],
     footer_note: [
-      "Ingress™ 为 Niantic, Inc. 的注册商标。本站为玩家自发建立的非官方社群主页，与 Niantic, Inc. 无从属关系。<br>© 2013–2026 SZRES · SHENZHEN RESISTANCE",
-      "Ingress™ is a trademark of Niantic, Inc. This is an unofficial community website built by agents, and is not affiliated with Niantic, Inc.<br>© 2013–2026 SZRES · SHENZHEN RESISTANCE"
+      "Ingress™ 为 Niantic Spatial, Inc. 的注册商标。本站为玩家自发建立的非官方社群主页，与 Niantic Spatial, Inc. 无从属关系。© 2013–2026 SZRES · SHENZHEN RESISTANCE",
+      "Ingress™ is a trademark of Niantic Spatial, Inc. This is an unofficial community website built by agents, and is not affiliated with Niantic Spatial, Inc. © 2013–2026 SZRES · SHENZHEN RESISTANCE"
     ],
     fl_label: ["友情链接", "FRIEND LINKS"]
   };
