@@ -97,7 +97,8 @@
 
   var BTN = {
     "活动介绍": "Event info",
-    "活动详情": "Event details"
+    "活动详情": "Event details",
+    "战报介绍": "Battle report"
   };
 
   var lang = 'zh';

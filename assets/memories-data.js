@@ -158,7 +158,8 @@ window.SZRES_MEMORIES = [
     tags: ["Prime", "活动", "澳门"],
     excerpt: "深蓝组团参加这一限定只能使用 Ingress Prime 进行的活动，需在 90 分钟以内完成 6 个不同的特殊挑战，获得特殊成就奖牌；奖牌的菁英版本将颁发给单项前 10% 的玩家。",
     excerpt_en: "SZRES took on this Prime-only event on the Macau Peninsula: six different special challenges had to be completed within 90 minutes to earn the exclusive achievement medal — with the Elite version awarded to the top 10% in each individual event.",
-    link: ""
+    link: "",
+    button: { label: "战报介绍", url: "https://bjres.net/2019/10/03/%E6%80%8E%E6%A0%B7%E5%9C%A8-field-test-%E4%B8%AD%E6%8B%BF%E5%88%B0%E7%B2%BE%E8%8B%B1%E7%89%8C/" }
   },
   {
     year: 2020,
