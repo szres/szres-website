@@ -29,6 +29,14 @@ window.SZRES_MEMORIES = [
     link: ""
   },
   {
+    year: 2016,
+    date: "2016-12-17",
+    title: "MDSZ · Mission Day Shenzhen",
+    tags: ["Mission Day", "活动", "里程碑"],
+    excerpt: "MDSZ 是 Niantic 与中国最大的游戏媒体 17173 合作举办的 Mission Day 系列活动之一，也是深圳首次举办 Mission Day。深蓝社群为活动提供了重要的支持协助。",
+    link: ""
+  },
+  {
     year: 2019,
     date: "2019",
     title: "社群迁移至新群",
