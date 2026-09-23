@@ -125,9 +125,9 @@ window.SZRES_MEMORIES = [
   {
     year: 2021,
     date: "2021-07-03",
-    title: "首次线上 IFS：云端相聚",
+    title: "线上 IFS 时隔近一年重启",
     tags: ["IFS", "线上"],
-    excerpt: "受特殊公共卫生事件影响，第一次通过云端会议体验了深圳 Ingress First Saturday。",
+    excerpt: "受特殊公共卫生事件影响，继续通过云端会议体验深圳 Ingress First Saturday。",
     link: ""
   },
   {
