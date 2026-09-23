@@ -40,6 +40,14 @@ window.SZRES_MEMORIES = [
   },
   {
     year: 2016,
+    date: "2016-09-24",
+    title: "Via Lux（光之宿命）澳门卫星场大战",
+    tags: ["Anomaly", "大战", "澳门"],
+    excerpt: "深蓝社群组团赴澳门，参战 Via Lux（光之宿命）系列活动的卫星战场。这是 Ingress 首次在澳门举办官方大型大战活动，吸引了大量港澳及周边地区的 Agent 前往参战。蓝军获胜。",
+    link: ""
+  },
+  {
+    year: 2016,
     date: "2016-12-17",
     title: "MDSZ · Mission Day Shenzhen",
     tags: ["Mission Day", "活动", "里程碑"],
