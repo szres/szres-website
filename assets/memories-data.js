@@ -30,6 +30,14 @@ window.SZRES_MEMORIES = [
   },
   {
     year: 2016,
+    date: "2016-04-02",
+    title: "Obsidian（黑曜石）APAC 香港主场大战",
+    tags: ["Anomaly", "大战", "香港"],
+    excerpt: "深蓝社群组团赴港参战 Obsidian APAC 亚太区 Primary Site——香港首次举办最高级别的主场大战，战场范围横跨维多利亚港两岸，蓝军获胜。",
+    link: ""
+  },
+  {
+    year: 2016,
     date: "2016-12-17",
     title: "MDSZ · Mission Day Shenzhen",
     tags: ["Mission Day", "活动", "里程碑"],
