@@ -24,7 +24,7 @@ window.SZRES_MEMORIES = [
   },
   {
     year: 2015,
-    date: "2015",
+    date: "2015-06",
     title: "讨论平台迁移：QQ → Telegram",
     tags: ["平台", "里程碑"],
     excerpt: "社群讨论平台由 QQ 迁移至 Telegram，@szres 群从此成为深蓝的行动情报与日常集结阵地。",
