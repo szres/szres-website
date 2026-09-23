@@ -123,6 +123,14 @@ window.SZRES_MEMORIES = [
     link: ""
   },
   {
+    year: 2020,
+    date: "2020-05-02",
+    title: "Ingress First Saturday 首次线上举办",
+    tags: ["IFS", "线上", "里程碑"],
+    excerpt: "受特殊公共卫生事件影响，暂停了 4 个月的 SZIFS 活动重启，但改为线上进行。",
+    link: ""
+  },
+  {
     year: 2021,
     date: "2021-07-03",
     title: "线上 IFS 时隔近一年重启",
