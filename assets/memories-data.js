@@ -151,6 +151,16 @@ window.SZRES_MEMORIES = [
     link: ""
   },
   {
+    year: 2019,
+    date: "2019-09-14",
+    title: "Field Test: Hexathlon 澳门半岛限时挑战",
+    title_en: "Field Test: Hexathlon — Macau Peninsula",
+    tags: ["Prime", "活动", "澳门"],
+    excerpt: "深蓝组团参加这一限定只能使用 Ingress Prime 进行的活动，需在 90 分钟以内完成 6 个不同的特殊挑战，获得特殊成就奖牌；奖牌的菁英版本将颁发给单项前 10% 的玩家。",
+    excerpt_en: "SZRES took on this Prime-only event on the Macau Peninsula: six different special challenges had to be completed within 90 minutes to earn the exclusive achievement medal — with the Elite version awarded to the top 10% in each individual event.",
+    link: ""
+  },
+  {
     year: 2020,
     date: "2020-05-02",
     title: "Ingress First Saturday 首次线上举办",
