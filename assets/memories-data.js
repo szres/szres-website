@@ -163,6 +163,14 @@ window.SZRES_MEMORIES = [
     link: ""
   },
   {
+    year: 2025,
+    date: "2025-05-31",
+    title: "+Theta 澳门珠海碎片战（Shard Singular / Skirmish）",
+    tags: ["Anomaly", "碎片战", "澳门珠海"],
+    excerpt: "+Theta 赛季亚太地区碎片战 12:00 在马场东大马路开战，深蓝队伍在珠海配合，并于 13:00 后在珠海坚守碎片。蓝军 3 : 0 获胜。",
+    link: ""
+  },
+  {
     year: 2026,
     date: "2026-09",
     title: "SZRES 社群主页上线",
