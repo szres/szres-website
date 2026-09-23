@@ -346,7 +346,7 @@ h2.sec-title .zh { color: var(--dim); font-size: 0.62em; letter-spacing: 6px; ma
 }
 .strip-item:last-child { border-right: none; }
 .strip-item b { display: block; color: var(--accent); font-size: 24px; letter-spacing: 2px; }
-html[lang="en"] .strip-item b[data-i18n="strip_sz_b"] { font-size: 17px; letter-spacing: 1px; padding-top: 5px; }
+.strip-item b[data-i18n="strip_sz_b"] { font-size: 17px; letter-spacing: 1px; padding-top: 5px; }
 
 /* about */
 .about-grid {
