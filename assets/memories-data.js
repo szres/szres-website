@@ -21,6 +21,22 @@ window.SZRES_MEMORIES = [
     link: ""
   },
   {
+    year: 2015,
+    date: "2015",
+    title: "讨论平台迁移：QQ → Telegram",
+    tags: ["平台", "里程碑"],
+    excerpt: "社群讨论平台由 QQ 迁移至 Telegram，@szres 群从此成为深蓝的行动情报与日常集结阵地。",
+    link: ""
+  },
+  {
+    year: 2019,
+    date: "2019",
+    title: "社群迁移至新群",
+    tags: ["平台", "里程碑"],
+    excerpt: "社群讨论平台迁移至新的 Telegram 群，老群完成历史使命，深蓝继续前行。",
+    link: ""
+  },
+  {
     year: 2026,
     date: "2026-09",
     title: "SZRES 社群主页上线",
