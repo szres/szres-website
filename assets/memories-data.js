@@ -171,6 +171,16 @@ window.SZRES_MEMORIES = [
     link: ""
   },
   {
+    year: 2022,
+    date: "2022",
+    title: "丰富深圳 Pokémon GO 游戏环境",
+    title_en: "Enriching Shenzhen's Pokémon GO environment",
+    tags: ["Lightship", "Wayfarer", "Pokémon GO"],
+    excerpt: "2021 年底 Niantic Lightship 开发者平台上线，通过无限额的 wayspot 提交与编辑，深蓝社群极大丰富了深圳的可用能量塔数量——尤其定向覆盖 Pokémon GO 解锁区（罗湖新秀及福田保税区），在充分遵守 Wayfarer 规则的前提下，让深圳 PG 玩家拥有了更多远程道馆和补给站。",
+    excerpt_en: "After Niantic's Lightship developer platform launched in late 2021, SZRES made unlimited wayspot submissions and edits that greatly expanded Shenzhen's usable portals — targeting the Pokémon GO unlock zones (Xinxiu in Luohu and the Futian Free Trade Zone) — fully within Wayfarer rules, giving local PG players many more remote gyms and PokéStops.",
+    link: ""
+  },
+  {
     year: 2023,
     date: "2023-06-02",
     title: "超频 Overclock 功能上线",
