@@ -147,6 +147,14 @@ window.SZRES_MEMORIES = [
     link: ""
   },
   {
+    year: 2024,
+    date: "2024-03-16",
+    title: "Cryptic Memories XM Anomaly 澳门大战",
+    tags: ["Anomaly", "大战", "澳门"],
+    excerpt: "澳门举办 Cryptic Memories XM Anomaly，是游戏线下重启后大湾区的第一次大型线下战。深蓝主力队伍在澳门半岛三盏灯圆地附近展开阵地对抗，最终蓝军以 Resistance 99.8 : Enlightened 59.3 获胜。",
+    link: ""
+  },
+  {
     year: 2026,
     date: "2026-09",
     title: "SZRES 社群主页上线",
