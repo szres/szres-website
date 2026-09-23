@@ -31,6 +31,14 @@ window.SZRES_MEMORIES = [
     link: ""
   },
   {
+    year: 2015,
+    date: "2015-03-28",
+    title: "Shōnin（证人）广州卫星场大战",
+    tags: ["Anomaly", "大战", "广州"],
+    excerpt: "深蓝社群组团参加 Shōnin（证人）广州 Satellite Site。这是《Ingress》早期在中国大陆举办的极少数官方大型落地赛事之一，当时吸引了来自全国各地（包括北京、香港等）的玩家前往广州线下参战。",
+    link: ""
+  },
+  {
     year: 2016,
     date: "2016-04-02",
     title: "Obsidian（黑曜石）APAC 香港主场大战",
