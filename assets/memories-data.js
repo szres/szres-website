@@ -123,6 +123,14 @@ window.SZRES_MEMORIES = [
     link: ""
   },
   {
+    year: 2021,
+    date: "2021-07-03",
+    title: "首次线上 IFS：云端相聚",
+    tags: ["IFS", "线上"],
+    excerpt: "受特殊公共卫生事件影响，第一次通过云端会议体验了深圳 Ingress First Saturday。",
+    link: ""
+  },
+  {
     year: 2024,
     date: "2024-01-06",
     title: "重启 Ingress First Saturday 线下聚会",
