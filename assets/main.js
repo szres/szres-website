@@ -70,14 +70,15 @@
       : emptyHTML('回忆档案整理中');
   }
 
-  /* archive page: every year 2013-2026 */
+  /* archive page: every year 2013-2026, newest year first (within a year, newest entry first) */
   var arch = document.getElementById('mem-archive');
   if (arch) {
     var byYear = {};
     DATA.forEach(function (m) { (byYear[m.year] = byYear[m.year] || []).push(m); });
     var html = '';
-    for (var y = 2013; y <= 2026; y++) {
-      var cards = (byYear[y] || []).map(cardHTML).join('') || emptyHTML(pick(y + ' 档案整理中', String(y)));
+    for (var y = 2026; y >= 2013; y--) {
+      var yearCards = (byYear[y] || []).slice().reverse();
+      var cards = yearCards.map(cardHTML).join('') || emptyHTML(pick(y + ' 档案整理中', String(y)));
       html += '<section class="year-block"><div class="year-num">' + y +
         '<small>YEAR ' + String(y).slice(2) + '</small></div>' +
         '<div class="year-cards">' + cards + '</div></section>';
