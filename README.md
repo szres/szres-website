@@ -15,7 +15,8 @@ assets/
   main.js             导航 / 滚动动效 / 档案渲染（按当前语言渲染）
   memories-data.js    ★ 回忆档案数据 —— 日常维护基本只改这个文件
   logo-mark.png       透明底白色大鹏鸟徽章（导航 / 页脚 / 关于我们）
-  logo.png            社群旗帜原图（1400px 宽，蓝底完整版）
+  logo.jpg            社群旗帜压缩版（1200px JPEG，用于社交分享卡片）
+  logo-original.png   社群旗帜原图（1400px PNG，归档备用于以后）
   favicon.png         方形徽标（浏览器标签页用，蓝底）
   shenzhen-map.svg    Ingress 情报风格深圳地图（真实市界/区界矢量数据生成）
 ```
