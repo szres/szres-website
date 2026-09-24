@@ -7,9 +7,36 @@
   var burger = document.getElementById('burger');
   var links = document.getElementById('navLinks');
   if (burger && links) {
+    var setMenu = function (open) {
+      links.classList.toggle('open', open);
+      burger.classList.toggle('open', open);
+      burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+    };
     burger.addEventListener('click', function () {
-      burger.classList.toggle('open');
-      links.classList.toggle('open');
+      setMenu(!links.classList.contains('open'));
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && links.classList.contains('open')) {
+        setMenu(false);
+        burger.focus();
+      }
+    });
+    // same-page anchors: close the menu and smooth-scroll instead of a full reload
+    links.addEventListener('click', function (e) {
+      var a = e.target.closest ? e.target.closest('a') : null;
+      if (!a) return;
+      setMenu(false);
+      var href = a.getAttribute('href') || '';
+      var hashIdx = href.indexOf('#');
+      if (hashIdx === -1 || e.defaultPrevented) return;
+      var page = href.slice(0, hashIdx).split('/').pop();
+      var here = location.pathname.split('/').pop();
+      var samePage = page === here || (page === 'index.html' && (here === '' || here === 'index.html'));
+      if (samePage && href.indexOf('../') === -1) {
+        e.preventDefault();
+        var target = document.getElementById(href.slice(hashIdx + 1));
+        if (target) target.scrollIntoView({ behavior: 'smooth' });
+      }
     });
   }
   window.addEventListener('scroll', function () {
@@ -79,8 +106,8 @@
     for (var y = 2026; y >= 2013; y--) {
       var yearCards = (byYear[y] || []).slice().reverse();
       var cards = yearCards.map(cardHTML).join('') || emptyHTML(pick(y + ' 档案整理中', String(y)));
-      html += '<section class="year-block"><div class="year-num">' + y +
-        '<small>YEAR ' + (y - 2012) + '</small></div>' +
+      html += '<section class="year-block"><h2 class="year-num">' + y +
+        '<small>YEAR ' + (y - 2012) + '</small></h2>' +
         '<div class="year-cards">' + cards + '</div></section>';
     }
     arch.innerHTML = html;

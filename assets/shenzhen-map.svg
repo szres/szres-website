@@ -10,7 +10,8 @@
 .lk2{stroke:#18a6f5;stroke-width:1.1;opacity:.8}
 .pH{fill:rgba(165,215,255,.15)}
 .pC{fill:#cfe7ff}
-.gH{fill:rgba(0,200,255,.13);animation:szpulse 3.8s ease-in-out infinite}
+.gH{fill:rgba(0,200,255,.13)}
+@media (prefers-reduced-motion: no-preference){.gH{animation:szpulse 3.8s ease-in-out infinite}}
 .gR{fill:none;stroke:#00c8ff;stroke-width:.8;opacity:.9}
 .gCC{fill:#eafaff}
 text{font-family:'Segoe UI','Microsoft YaHei',Arial,sans-serif}

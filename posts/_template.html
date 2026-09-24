@@ -20,9 +20,12 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add("js");</script>
 <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
+
+<a class="skip-link" href="#main">跳到正文 · Skip to content</a>
 
 <header class="nav" id="nav">
   <a class="brand" href="../index.html">
@@ -34,7 +37,7 @@
   </a>
   <div class="nav-right">
     <button class="lang-toggle" id="langToggle" aria-label="Switch language">EN</button>
-    <button class="nav-burger" id="burger" aria-label="菜单">
+    <button class="nav-burger" id="burger" aria-label="菜单" aria-expanded="false" aria-controls="navLinks">
       <span></span><span></span><span></span>
     </button>
     <nav class="nav-links" id="navLinks">
