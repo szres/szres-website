@@ -80,7 +80,7 @@
       var yearCards = (byYear[y] || []).slice().reverse();
       var cards = yearCards.map(cardHTML).join('') || emptyHTML(pick(y + ' 档案整理中', String(y)));
       html += '<section class="year-block"><div class="year-num">' + y +
-        '<small>YEAR ' + String(y).slice(2) + '</small></div>' +
+        '<small>YEAR ' + (y - 2012) + '</small></div>' +
         '<div class="year-cards">' + cards + '</div></section>';
     }
     arch.innerHTML = html;
