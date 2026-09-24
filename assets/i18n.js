@@ -67,6 +67,10 @@
       "Ingress™ is a trademark of Niantic Spatial, Inc. This is an unofficial community website built by agents, and is not affiliated with Niantic Spatial, Inc. © 2013–2026 SZRES · SHENZHEN RESISTANCE"
     ],
     fl_label: ["友情链接", "FRIEND LINKS"],
+    fl_bjres: ["Ingress 北蓝公众号", "IngressBeijingWX"],
+    fl_rgnn: ["全球蓝军 RGNN", "RGNN"],
+    fl_md_atlas: ["全球任务日活动地图", "MD Atlas"],
+    fl_hk: ["港蓝社群", "Hong Kong RES"],
     song_overline: ["THEME SONG // 主题曲", "THEME SONG // ANIME OPENING"],
     song_zh: ["动画主题曲", "INGRESS THE ANIMATION"],
     song_desc: [
