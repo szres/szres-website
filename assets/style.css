@@ -680,6 +680,8 @@ footer .f-note { font-size: 11.5px; color: var(--faint); max-width: 720px; margi
 }
 .song-card .fact:first-child { border-top: none; padding-top: 2px; }
 .song-links { margin-top: auto; padding-top: 20px; display: flex; flex-wrap: wrap; gap: 8px; }
+.song-embed { margin-top: 18px; border: 1px solid var(--line); }
+.song-embed iframe { display: block; width: 100%; height: 66px; border: 0; }
 
 /* keyboard focus: inset ring paints inside the clip-path polygon, so it is never clipped */
 .skip-link {
