@@ -23,7 +23,7 @@
     about_overline: ["ABOUT US // 关于我们", "ABOUT US // SZRES"],
     about_zh: ["我们是谁", "SZRES COMMUNITY"],
     about_p1: [
-      "深蓝社群（Shenzhen Resistance，SZRES，曾称深圳蓝军）是 Ingress 玩家在深圳的抵抗军社群，自 <em>2013 年</em>成立至今。",
+      "深蓝社群（Shenzhen Resistance，SZRES，曾称深圳蓝军）是 <a href='https://ingress.com/en' target='_blank' rel='noopener'>Ingress</a> 玩家在深圳的抵抗军社群，自 <em>2013 年</em>成立至今。",
       "Shenzhen Resistance (SZRES) — historically known as 深圳蓝军 (the Shenzhen Blue Army) — is the Resistance community for <a href='https://ingress.com/en' target='_blank' rel='noopener'>Ingress</a> agents in Shenzhen, running since <em>2013</em>."
     ],
     about_p2: [
