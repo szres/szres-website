@@ -32,7 +32,7 @@
     ],
     about_p3: [
       "从蛇口海上世界的巨轮到世界工厂的龙华富士康，从南山科兴科技园到人来人往的罗湖口岸，从深圳湾公园的海风到大鹏的浪涛，深圳 Agent 们的扫描器从未停下：日常的占领与社群联系从未中断，周末的 field ops、官方异常战（Anomaly）与 First Saturday 首月周六、以及大大小小的线下聚会总在发生。阵营会有胜负，战场会有得失，人员会有流动。天下没有不散的筵席，但这份从 2013 年延续下来的羁绊，至今还未中断。",
-      "From the giant ship at Sea World in Shekou to Foxconn Longhua in the world's factory, from Kexing Science Park in Nanshan to the bustling Luohu border checkpoint, from the sea breeze of Shenzhen Bay Park to the waves of Dapeng — Shenzhen agents never stop scanning. Daily captures and community ties have never been broken, while weekend field ops, official anomalies, First Saturday meetups and offline gatherings big and small are always happening. Factions win and lose, battlefields shift, people come and go. No feast lasts forever, yet the bond forged in 2013 has never been interrupted."
+      "From the giant ship at Sea World in Shekou to the world's factory that is Foxconn Longhua, from Kexing Science Park in Nanshan to the bustling Luohu border checkpoint, from the sea breeze of Shenzhen Bay Park to the waves of Dapeng — Shenzhen agents never stop scanning. Daily captures and community ties have never been broken, while weekend field ops, official anomalies, First Saturday meetups and offline gatherings big and small are always happening. Factions win and lose, battlefields shift, people come and go. No feast lasts forever, yet the bond forged in 2013 has never been interrupted."
     ],
     about_p4: [
       "无论你是身经百战的老 Agent，还是刚刚下载扫描器的新人，深蓝社群都欢迎你的加入。",
