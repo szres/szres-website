@@ -17,14 +17,14 @@
     strip_founded: ["成立年份", "FOUNDED"],
     strip_years_b: ["13 年", "13"],
     strip_years_l: ["持续运营", "YEARS RUNNING"],
-    strip_res_l: ["抵抗军 · 阵营色蓝", "RESISTANCE · BLUE"],
+    strip_res_l: ["抵抗军 · 蓝色阵营", "RESISTANCE · BLUE"],
     strip_sz_b: ["+86755/440300", "+86755/440300"],
     strip_sz_l: ["坐标深圳", "SHENZHEN, CHINA"],
     about_overline: ["ABOUT US // 关于我们", "ABOUT US // SZRES"],
     about_zh: ["我们是谁", "SZRES COMMUNITY"],
     about_p1: [
       "深蓝社群（Shenzhen Resistance，SZRES，曾称深圳蓝军）是 <a href='https://ingress.com/en' target='_blank' rel='noopener'>Ingress</a> 玩家在深圳的抵抗军社群，自 <em>2013 年</em>成立至今。",
-      "Shenzhen Resistance (SZRES) — historically known as 深圳蓝军 (the Shenzhen Blue Army) — is the Resistance community for <a href='https://ingress.com/en' target='_blank' rel='noopener'>Ingress</a> agents in Shenzhen, running since <em>2013</em>."
+      "Shenzhen Resistance (SZRES) — historically known as 深圳蓝军 (the Shenzhen Blue Faction) — is the Resistance community for <a href='https://ingress.com/en' target='_blank' rel='noopener'>Ingress</a> agents in Shenzhen, running since <em>2013</em>."
     ],
     about_p2: [
       "Ingress 是一款以真实世界为棋盘的增强现实（AR）游戏，全球玩家分为两支阵营——争夺守护人类心灵的 <em>Resistance（抵抗军）</em>与拥抱异次元能量的 Enlightened（启示军）。在深圳，我们就是那支拿着蓝色手持终端，把地图覆盖成蓝色的队伍。",
