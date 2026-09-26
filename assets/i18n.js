@@ -18,7 +18,7 @@
     strip_years_b: ["13 年", "13"],
     strip_years_l: ["持续运营", "YEARS RUNNING"],
     strip_res_l: ["抵抗军 · 阵营色蓝", "RESISTANCE · BLUE"],
-    strip_sz_b: ["+86755/440301", "+86755/440301"],
+    strip_sz_b: ["+86755/440300", "+86755/440300"],
     strip_sz_l: ["坐标深圳", "SHENZHEN, CHINA"],
     about_overline: ["ABOUT US // 关于我们", "ABOUT US // SZRES"],
     about_zh: ["我们是谁", "SZRES COMMUNITY"],
