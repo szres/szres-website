@@ -74,8 +74,8 @@
     song_overline: ["THEME SONG // 主题曲", "THEME SONG // ANIME OPENING"],
     song_zh: ["动画主题曲", "INGRESS THE ANIMATION"],
     song_desc: [
-      "《Tessellate》 by alt-J，收录于专辑《An Awesome Wave》（2012），也是动画《INGRESS THE ANIMATION》的片头曲。戴上耳机，听听深蓝的背景音。",
-      "'Tessellate' by alt-J, from the album 'An Awesome Wave' (2012) — also the opening theme of the anime 'INGRESS THE ANIMATION'. Put on your headphones and enjoy the sound of SZ."
+      "《Tessellate》 by alt-J，收录于专辑《An Awesome Wave》（2012），也是动画《INGRESS THE ANIMATION》的片头曲。",
+      "'Tessellate' by alt-J, from the album 'An Awesome Wave' (2012) — also the opening theme of the anime 'INGRESS THE ANIMATION'."
     ]
   };
 
