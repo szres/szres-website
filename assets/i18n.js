@@ -24,7 +24,7 @@
     about_zh: ["我们是谁", "SZRES COMMUNITY"],
     about_p1: [
       "深蓝社群（Shenzhen Resistance，SZRES，曾称深圳蓝军）是 Ingress 玩家在深圳的抵抗军社群，自 <em>2013 年</em>成立至今。",
-      "Shenzhen Resistance (SZRES) — historically known as 深圳蓝军 (the Shenzhen Blue Army) — is the Resistance community for Ingress agents in Shenzhen, running since <em>2013</em>."
+      "Shenzhen Resistance (SZRES) — historically known as 深圳蓝军 (the Shenzhen Blue Army) — is the Resistance community for <a href="https://ingress.com/en" target="_blank" rel="noopener">Ingress</a> agents in Shenzhen, running since <em>2013</em>."
     ],
     about_p2: [
       "Ingress 是一款以真实世界为棋盘的增强现实（AR）游戏，全球玩家分为两支阵营——争夺守护人类心灵的 <em>Resistance（抵抗军）</em>与拥抱异次元能量的 Enlightened（启示军）。在深圳，我们就是那支拿着蓝色手持终端，把地图覆盖成蓝色的队伍。",
