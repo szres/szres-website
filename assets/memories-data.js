@@ -64,8 +64,8 @@ window.SZRES_MEMORIES = [
     title: "社群 LOGO 更新：方形图标 → 猛禽图标",
     title_en: "New community logo: square icon gives way to the raptor",
     tags: ["品牌", "里程碑"],
-    excerpt: "深蓝社群更新视觉标识，LOGO 由方形图标变为猛禽图标。",
-    excerpt_en: "SZRES refreshed its visual identity — the square icon was replaced by the raptor emblem.",
+    excerpt: "深蓝社群更新视觉标识，LOGO 由方形图标变为猛禽图标 by 图标设计师：@Kilomo。",
+    excerpt_en: "SZRES refreshed its visual identity — the square icon was replaced by the raptor emblem, by icon designer @Kilomo.",
     link: ""
   },
   {
